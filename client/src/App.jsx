@@ -154,7 +154,7 @@ function App() {
       )}
       {forecastData.length > 0 && (
         <div style={{marginTop: "20px"}}>
-          <h2>5-Day Forecast</h2>
+          <h2>Forecast</h2>
           <div style={{display: "flex", gap: "15px", justifyContent: "center", alignItems: "center"}}>
             {forecastData.map((day, index) => (
               <div key={index} style={{textAlign: "center"}}>
